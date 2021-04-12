@@ -9,24 +9,15 @@
 </body>
 </html>
 <script>
-    let nhieunguoi=[
-        {
-            so:1,
-            ten:"dung",
-            thích:"nghe nhạc xem phim",
-            ghét:"những đứa lăng nhăng"
-
-        },
-        {
-            số:2,
-            tên:"hòa",
-            thích:"đánh bóng",
-            ghét:"bơi,hát"
+    let text =""
+    for(let i=0;i<=10;i++) {
+        document.write(i)
+        if( i === 3 ){
+            break;
 
         }
-    ]
-    nhieunguoi.forEach(function(nguoi) {
-        console.log(nguoi);
-        }
-    )
+    text += "the number is " + i + "<br>";
+
+
+    }
 </script>
